@@ -1,0 +1,18 @@
+package HeadFirstJava;
+
+/**
+ * Created by CyberNiggaXX87 on 22.02.2016.
+ */
+public class XCopy
+{
+    public static void main(String[] args){
+        int orig=42;
+        XCopy x=new XCopy();
+        int y=x.go(orig);
+        System.out.println(orig+" "+y);
+    }
+    int go(int arg){
+        arg=arg*2;
+        return arg;
+    }
+}
